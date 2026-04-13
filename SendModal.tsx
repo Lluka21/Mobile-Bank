@@ -12,7 +12,7 @@ import { CalculateBalanceContext } from "../context/BalanceContext";
 type SendModalProps = {
   visible: boolean;
   onClose: () => void;
-  selectedService: null | "send" | "receive" | "topup" | "payment";
+  selectedService: null | "send" | "receive" | "topup" | "paymet";
 };
 
 export default function SendModal({
