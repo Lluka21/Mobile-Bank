@@ -10,7 +10,7 @@ import {
 import { BankCard } from "./card";
 
 export default function AddNewCard() {
-  const [cardColor, setCardColor] = useState("#027DFF");
+  const [cardColor, setCardColo] = useState("#027DFF");
 
   return (
     <View style={styles.container}>
