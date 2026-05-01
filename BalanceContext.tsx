@@ -7,7 +7,7 @@ type CalculateBalanceContextType = {
   userInput: string;
   setUserInput: React.Dispatch<React.SetStateAction<string>>;
   convertUserInputToNumber: () => void;
-};
+}
 
 export const CalculateBalanceContext = createContext<
   CalculateBalanceContextType | undefined
